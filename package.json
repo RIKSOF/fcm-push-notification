@@ -1,10 +1,13 @@
 {
-  "name": "serverless",
+  "name": "fcm-push-notification",
   "version": "1.0.0",
   "description": "Serverless functions",
   "license": "UNLICENSED",
   "main": "index.js",
   "keywords": [
+    "fcm-push-notification",
+    "fcm",
+    "push-notification",
     "serverless",
     "lambda",
     "cloud functions"
