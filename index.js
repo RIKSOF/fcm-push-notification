@@ -38,7 +38,9 @@ class PushNotification {
    * @returns {Promise} p
    */
   send( deviceId, message ) {
-    return this.fcm.send( deviceId, message );
+    return this.fcm.send( deviceId, message ).catch( function OnPushNotification( err ) {
+      return Promise.resolve( err );
+    });
   }
 }
 
