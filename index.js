@@ -5,7 +5,6 @@
  *
  * @file Module for working with FCM Push Notification.
  */
-const Promise = require( 'bluebird' );
 const FCM = require( 'fcm-push' );
 
 /**
